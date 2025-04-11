@@ -15,7 +15,7 @@ window.playerGear={
             count:1,
             diameter:10,
             power:0.2,
-            rate:999,
+            rate:200,
             mesh:function(x,y,z,box,cylinder){
 
                 cylinder(x,y,z,0.125,1.25,10,0.3,0.3,0.3,1,90,0,0)
@@ -35,7 +35,7 @@ window.playerGear={
             count:2,
             diameter:10,
             power:0.2,
-            rate:3.5,
+            rate:200,
             mesh:function(x,y,z,box,cylinder){
 
                 cylinder(x,y,z,0.125,1.25,10,0.7,0.7,0.7,1,90,0,0)
@@ -55,7 +55,7 @@ window.playerGear={
             count:3,
             diameter:11,
             power:0.25,
-            rate:3.5,
+            rate:200,
             mesh:function(x,y,z,box,cylinder){
 
                 cylinder(x,y,z,0.125,1.25,10,0.9,0.9,0.2,1,90,0,0)
@@ -75,7 +75,7 @@ window.playerGear={
             count:4,
             diameter:11,
             power:0.25,
-            rate:3,
+            rate:200,
             mesh:function(x,y,z,box,cylinder){
 
                 cylinder(x,y,z,0.125,1.25,10,0,0.9,0.9,1,90,0,0)
@@ -95,7 +95,7 @@ window.playerGear={
             count:1,
             diameter:15,
             power:0.5,
-            rate:1,
+            rate:200,
             mesh:function(x,y,z,box,cylinder){
 
                 cylinder(x,y+0.25,z,0.15,2.5,10,0.9,0.9,0.5,1,90,0,0)
